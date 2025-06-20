@@ -2,6 +2,8 @@
 
 This project performs exploratory data analysis (EDA) on 10,000+ retail sales records using Python, Pandas, and Seaborn. It analyzes customer behavior across age groups, gender, occupations, and geographic zones while profiling product category performance. 
 
+###### The dataset 'Sales Data.csv' contains transactional sales data, including customer demographics (Gender, Age, Marital Status, Occupation, State), product details (Product_ID, Product_Category), and sales metrics (Orders, Amount). It is used for analyzing purchasing patterns, customer segments, and product performance across different regions and demographics.
+
 ### 1. Data Cleaning & Preparation
 - The dataset was loaded and unnecessary columns (`Status`, `unnamed1`) were dropped.
 - Null values were checked and removed to ensure data quality.
