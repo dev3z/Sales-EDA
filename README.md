@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24&height=200&section=header&text=Sales%20EDA%20Project&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=35" width="100%" alt="Header"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24&height=200&section=header&text=Sales%20EDA%20Project&fontSize=40&fontColor=ffffff&animation=fadeIn&fontAlignY=55&descAlign=62&descAlignY=75" width="100%"/>
   
   <h1>
     <img src="https://media.giphy.com/media/3oKIPEqDGUULpEU0aQ/giphy.gif" width="50" height="50"/>
@@ -8,7 +8,7 @@
   </h1>
   
   <p>
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=📊+Analyzing+10%2C000%2B+Sales+Records;🔍+Uncovering+Customer+Behavior+Patterns;📈+Data-Driven+Business+Insights;🚀+Built+with+Python+%26+Data+Science" alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=📊+Analyzing+10%2C000%2B+Sales+Records;🔍+Uncovering+Customer+Insights;📈+Data-Driven+Business+Intelligence" />
   </p>
   
   <!-- Badges -->
@@ -25,13 +25,9 @@
 
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35" height="35"/> Project Overview
 
-This comprehensive **Exploratory Data Analysis (EDA)** project analyzes **10,000+ retail sales records** to uncover valuable customer insights and business intelligence. Using advanced Python data science libraries, this analysis reveals critical patterns in customer behavior, demographic trends, and product performance.
+This comprehensive **Exploratory Data Analysis (EDA)** project analyzes **10,000+ retail sales records** to uncover valuable customer insights and business intelligence. Using Python data science libraries, this project provides actionable insights for marketing strategies and inventory management.
 
-<div align="center">
-  <img src="https://media.giphy.com/media/l3vRgnd8XKwgVCYwM/giphy.gif" width="400" alt="Data Analysis"/>
-</div>
 
----
 
 ## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="35" height="35"/> Key Features
 
@@ -65,73 +61,62 @@ This comprehensive **Exploratory Data Analysis (EDA)** project analyzes **10,000
 Sales-EDA/
 ├── 📓 Sales_EDA.ipynb          # Main analysis notebook
 ├── 📊 Sales Data.csv           # Dataset (10,000+ records)
-├── 📸 screenshots/             # Analysis visualizations
-│   ├── demographic_analysis.png
-│   ├── geographic_insights.png
-│   ├── product_performance.png
-│   └── correlation_matrix.png
+├── 📄 report.md                # Detailed project report
 └── 📖 README.md               # Project documentation
 ```
 
 ---
 
-## <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="35" height="35"/> Quick Start
-
-### Prerequisites
-```bash
-# Clone the repository
-git clone https://github.com/dev3z/Sales-EDA.git
-cd Sales-EDA
-
-# Install required packages
-pip install pandas numpy matplotlib seaborn jupyter
-```
-
-### Run the Analysis
-```bash
-# Launch Jupyter Notebook
-jupyter notebook Sales_EDA.ipynb
-
-# Or run directly with Python
-python -c "
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-exec(open('Sales_EDA.ipynb').read())
-"
-```
+## <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="35" height="35"/> Performance Metrics
 
 <div align="center">
-  <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="300" alt="Running Code"/>
+  
+| 📊 **Metric** | 📈 **Value** | 📝 **Description** |
+|---------------|--------------|-------------------|
+| **Dataset Size** | 10,000+ Records | Complete sales transaction data |
+| **Analysis Dimensions** | 4 Major Categories | Demographics, Geography, Occupation, Products |
+| **Visualizations Created** | 15+ Charts & Graphs | Comprehensive visual analysis |
+| **Data Processing** | 100% Coverage | All records analyzed without loss |
+| **Key Insights Generated** | 20+ Findings | Actionable business recommendations |
+
 </div>
 
 ---
 
-## <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="35" height="35"/> Key Insights & Visualizations
+## <img src="https://media.giphy.com/media/xT9IgzoKnwFNmISR8I/giphy.gif" width="35" height="35"/> Key Insights & Analysis
 
 ### 📊 Demographic Analysis
 <div align="center">
-  <img src="https://via.placeholder.com/800x400/2E8B57/FFFFFF?text=📊+Gender+Distribution+Analysis" alt="Gender Analysis"/>
-  <p><em>Female customers dominate with 64% of total purchases</em></p>
+  <img src="screenshots/gender.png" alt="Gender Analysis" width="600"/>
 </div>
+
+- **Gender Distribution**: Female customers represent the majority of buyers
+- **Age Groups**: 26-35 age group leads in both order count and purchase amount
+- **Marital Status**: Married women in the 26-35 age group are the most active buyers
 
 ### 🗺️ Geographic Distribution  
 <div align="center">
-  <img src="https://via.placeholder.com/800x400/4682B4/FFFFFF?text=🗺️+Top+Performing+States" alt="Geographic Analysis"/>
-  <p><em>Uttar Pradesh, Maharashtra & Karnataka lead in sales volume</em></p>
+  <img src="screenshots/geographic analysis.png" alt="Geographic Analysis" width="600"/>
 </div>
+
+- **Top Performing States**: Uttar Pradesh, Maharashtra, and Karnataka lead in sales volume
+- These states represent key markets for business expansion
 
 ### 🏢 Occupational Insights
 <div align="center">
-  <img src="https://via.placeholder.com/800x400/FF6347/FFFFFF?text=🏢+Occupation+vs+Purchase+Behavior" alt="Occupation Analysis"/>
-  <p><em>IT, Healthcare & Aviation professionals are top buyers</em></p>
+  <img src="screenshots/occupation.png" alt="Occupation Analysis" width="600"/>
 </div>
+
+- **Leading Sectors**: IT, Healthcare, and Aviation professionals are top buyers
+- These sectors contribute significantly to total sales
 
 ### 🛍️ Product Performance
 <div align="center">
-  <img src="https://via.placeholder.com/800x400/32CD32/FFFFFF?text=🛍️+Product+Category+Analysis" alt="Product Analysis"/>
-  <p><em>Food, Clothing & Electronics dominate sales</em></p>
+  <img src="screenshots/product category.png" alt="Product Category Analysis" width="600"/>
 </div>
+
+- **Popular Categories**: Food, Clothing, and Electronics dominate sales
+- Top 10 products are primarily from these categories
 
 ---
 
@@ -139,13 +124,12 @@ exec(open('Sales_EDA.ipynb').read())
 
 <div align="center">
   
-| 🎯 **Target Segment** | 📈 **Performance Metrics** |
+| 🎯 **Target Segment** | 📈 **Performance Insights** |
 |----------------------|---------------------------|
 | **Primary Buyers** | Married Women (26-35 years) |
 | **Top Regions** | UP, Maharashtra, Karnataka |
 | **Leading Sectors** | IT, Healthcare, Aviation |
 | **Popular Categories** | Food, Clothing, Electronics |
-| **Purchase Power** | ₹15,000+ average transaction |
 
 </div>
 
@@ -172,22 +156,6 @@ graph LR
 
 ---
 
-## <img src="https://media.giphy.com/media/WFZvB7VIXBgiz3oDXE/giphy.gif" width="35" height="35"/> Performance Metrics
-
-<div align="center">
-  
-| Metric | Value | Status |
-|--------|-------|--------|
-| **Data Quality** | 99.8% Clean | ✅ Excellent |
-| **Processing Time** | < 2 minutes | ⚡ Fast |
-| **Visualization Count** | 12+ Charts | 📊 Comprehensive |
-| **Insights Generated** | 20+ Key Findings | 💡 Rich |
-| **Business Value** | High ROI Potential | 🚀 Impactful |
-
-</div>
-
----
-
 ## <img src="https://media.giphy.com/media/du3J3cXyzhj75IOgvA/giphy.gif" width="35" height="35"/> Contact & Portfolio
 
 <div align="center">
@@ -203,13 +171,37 @@ graph LR
 
 ---
 
+## <img src="https://media.giphy.com/media/dWesBcTLavkZuG35MI/giphy.gif" width="35" height="35"/> Quick Start
+
+### Prerequisites
+```bash
+# Clone the repository
+git clone https://github.com/dev3z/Sales-EDA.git
+cd Sales-EDA
+
+# Install required packages
+pip install pandas numpy matplotlib seaborn jupyter
+```
+
+### Run the Analysis
+```bash
+# Launch Jupyter Notebook
+jupyter notebook Sales_EDA.ipynb
+```
+
+<div align="center">
+  <img src="https://media.giphy.com/media/ZVik7pBtu9dNS/giphy.gif" width="300" alt="Running Code"/>
+</div>
+
+---
+
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=24&height=120&section=footer" width="100%"/>
   
   <p>
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=400&lines=Thank+you+for+reviewing+my+project!;Let's+connect+and+collaborate!" alt="Footer Typing"/>
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=36BCF7&center=true&vCenter=true&width=400&lines=Thank+you+for+reviewing+my+project!;Let's+connect+and+collaborate!" />
   </p>
 </div>
 
 <!-- Analytics -->
-<img src="https://komarev.com/ghpvc/?username=dev3z-sales-eda&style=flat-square&color=blue" alt="Profile Views"/>
+<img src="komarev.com/ghpvc/?username=dev3z-sales-eda&style=flat-square&color=blue" alt="Profile Views"/>
