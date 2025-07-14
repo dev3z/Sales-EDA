@@ -87,7 +87,7 @@ Sales-EDA/
 
 ### 📊 Demographic Analysis
 <div align="center">
-  <img src="screenshots/gender.png" alt="Gender Analysis" width="600"/>
+  <img src="screenshots/gender analysis.png" alt="gender analysis.png" width="600"/>
 </div>
 
 - **Gender Distribution**: Female customers represent the majority of buyers
@@ -203,5 +203,3 @@ jupyter notebook Sales_EDA.ipynb
   </p>
 </div>
 
-<!-- Analytics -->
-<img src="komarev.com/ghpvc/?username=dev3z-sales-eda&style=flat-square&color=blue" alt="Profile Views"/>
